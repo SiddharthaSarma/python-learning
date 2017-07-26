@@ -6,3 +6,12 @@ def read_file():
 
 
 read_file()
+
+
+def write_file():
+    total_amount = 100
+    with open("Output.txt", "w") as text_file:
+        print("Purchase Amount: {}".format(total_amount), file=text_file)
+
+
+write_file()
